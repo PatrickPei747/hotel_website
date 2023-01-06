@@ -5,6 +5,11 @@ import Welcome from "./pages/Welcome";
 import About from "./pages/About";
 import Contact from "./pages/Contact";
 
+import { library } from "@fortawesome/fontawesome-svg-core";
+import { fas } from "@fortawesome/free-solid-svg-icons";
+
+library.add(fas);
+
 function App() {
   return (
     <div>
