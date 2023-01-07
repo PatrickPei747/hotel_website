@@ -48,6 +48,7 @@ p {
 
 .l-heading {
   font-size: 40px;
+  line-height: 1.2;
 }
 
 .text-primary {
@@ -105,4 +106,17 @@ p {
   background: #444;
   color: #fff;
   padding: 20px;
+}
+
+@media (max-width: 768px) {
+  .box {
+    float: none;
+    width: 100%;
+  }
+  .l-heading {
+    text-align: center;
+  }
+  .m-box{
+    border-bottom: #444 dotted 1px;
+  }
 }

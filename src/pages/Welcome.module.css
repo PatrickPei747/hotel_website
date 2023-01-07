@@ -20,7 +20,7 @@
 }
 
 #home_info {
-  height: 400px;
+  height: 450px;
 }
 
 #home_info .info_img {
@@ -45,4 +45,24 @@
 
 .icon {
   margin-bottom: 10px;
+}
+
+@media (max-width: 768px) {
+  #showcase{
+    height: 100%;
+  }
+  #showcase .content {
+    padding-top: 70px;
+    padding-bottom: 30px;
+  }
+  #home_info {
+    height: 550px;
+  }
+  #home_info .info_img {
+    display: none;
+  }
+  #home_info .info_content {
+    float: none;
+    width: 100%;
+  }
 }

@@ -35,7 +35,7 @@ const Contact = () => {
 
       <section id={styles.contact_info} className="bg-dark">
         <div className="container">
-          <div className="box">
+          <div className="box m-box">
             <FontAwesomeIcon
               icon="fa-solid fa-hotel"
               className={styles.icon}
@@ -44,7 +44,7 @@ const Contact = () => {
             <h3>Location</h3>
             <p>1 Queen Strees</p>
           </div>
-          <div className="box">
+          <div className="box m-box">
             <FontAwesomeIcon
               icon="fa-solid fa-phone"
               className={styles.icon}
@@ -53,14 +53,14 @@ const Contact = () => {
             <h3>Phone Number</h3>
             <p>123-456-7890</p>
           </div>
-          <div className="box">
+          <div className="box m-box">
             <FontAwesomeIcon
               icon="fa-solid fa-envelope"
               className={styles.icon}
               size="3x"
             />
-            <h3>Hotel@ht.ac.nz</h3>
-            <p></p>
+            <h3>Email</h3>
+            <p>Hotel@ht.ac.nz</p>
           </div>
         </div>
       </section>
