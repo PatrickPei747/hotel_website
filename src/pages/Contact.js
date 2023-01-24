@@ -13,7 +13,7 @@ const Contact = () => {
           </h1>
           <p>Please fill out the form below to contact us</p>
 
-          <form name="contact" method="POST" className="contact">
+          <form name="contact" method="post">
             <input type="hidden" name="form-name" value="contact" />
             <div className={styles.form_group}>
               <label for="name">Name</label>
