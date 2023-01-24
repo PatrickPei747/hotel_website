@@ -13,8 +13,7 @@ const Contact = () => {
           </h1>
           <p>Please fill out the form below to contact us</p>
 
-          <form name="contact" method="post">
-            <input type="hidden" name="form-name" value="contact" />
+          <form>
             <div className={styles.form_group}>
               <label for="name">Name</label>
               <input type="text" name="name" id="name" />
@@ -27,7 +26,7 @@ const Contact = () => {
               <label for="message">Message</label>
               <textarea name="message" id="message"></textarea>
             </div>
-            <button type="submit" className="btn">
+            <button type="button" className="btn">
               Submit
             </button>
           </form>
