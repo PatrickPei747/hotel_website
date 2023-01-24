@@ -14,7 +14,7 @@ const Contact = () => {
           <p>Please fill out the form below to contact us</p>
 
           <form name="contact" method="POST" className="contact">
-            <input type="hidden" name="contact" value="contact" />
+            <input type="hidden" name="form-name" value="contact" />
             <div className={styles.form_group}>
               <label for="name">Name</label>
               <input type="text" name="name" id="name" />
