@@ -13,7 +13,8 @@ const Contact = () => {
           </h1>
           <p>Please fill out the form below to contact us</p>
 
-          <form name="contact" method="POST" data-netlify="true">
+          <form name="contact" method="POST" className="contact">
+            <input type="hidden" name="contact" value="contact" />
             <div className={styles.form_group}>
               <label for="name">Name</label>
               <input type="text" name="name" id="name" />
